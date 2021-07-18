@@ -79,3 +79,12 @@ outfile.close()
   # Print each row 
     for row in file_reader:
         print(row[0])
+        
+
+# Put total_votes = 0 before ('open' argument)
+    # Rows
+    for row in file_reader:
+        # Add total votes count
+        total_votes += 1
+
+print(total_votes)
