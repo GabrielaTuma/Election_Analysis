@@ -18,18 +18,26 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 ## Summary 
 The analysis of the congressional election starts with sorting the data and simplifying the information. 
 
-1. First we found the total number of votes 
-**Total Votes: 369,711**
+1. First we found the total number of votes:  
+**369,711**
 
 2. Then the complete list of candidates that received votes 
+
 **Candidate 1: Charles Casper Stockham**
+
 **Candidate 2: Diana DeGette**
+
 **Candidate 3: Raymon Anthony Doane**
 
+
 3. By creating a variable for the votes per candidates and their respective (4.) percentage we found the election results by candidate 
+
 **Candidate 1 received 23% of the votes (85,213 of the total)**
+
 **Candidate 2 received 73.8% of the votes (272,892 of the total)**
+
 **Candidate 3 received 3.1% of the votes (11,606 of the total)**
+
 
 5. The winner of the election based on popular vote is:
 **Diana DeGette**
@@ -44,6 +52,20 @@ The analysis of the congressional election starts with sorting the data and simp
 - [ ] 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 ## Challenge Summary 
+
+### Purpose 
+The election commission has requested some additional data to complete the audit:
+- Voter turnout for each county
+- Percentage from each county of the total count
+- County with the highest turnout
+
+While trying to find the numbers per county something is very clear: **most of the code can be recycled** from the first assignment. 
+
+![Different data can be analyzed with the same logial sequence if they have the same purpose - finding the variable 'x' with the biggest 'y' associated](analysis/Candidate vs County Analysis 2.png)
+![Comparing codes for candidate and county analysis](analysis/Candidate vs County Analysis .png)
+
+Even though we are analyzing different variables: candidate and county, our goal is the same, finding a 'winner' with the biggest amount of votes. The script can be used for any election by doing small adjustments to the code. 
+
 
 
 
