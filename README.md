@@ -61,8 +61,13 @@ The election commission has requested some additional data to complete the audit
 
 While trying to find the numbers per county something is very clear: **most of the code can be recycled** from the first assignment. 
 
-![Different data can be analyzed with the same logial sequence if they have the same purpose - finding the variable 'x' with the biggest 'y' associated](analysis/Candidate vs County Analysis 2.png)
-![Comparing codes for candidate and county analysis](analysis/Candidate vs County Analysis .png)
+Different data can be analyzed with the same logial sequence if they have the same purpose - finding the variable 'x' with the biggest 'y' associated
+
+![Candidate vs County](https://github.com/GabrielaTuma/Election_Analysis/blob/7b935aa1f6a94015581221052939be44551c48e5/analysis/Candidate%20vs%20County%20Analysis%202.png)
+
+Comparing codes for candidate and county analysis
+
+![Comparing codes](https://github.com/GabrielaTuma/Election_Analysis/blob/7b935aa1f6a94015581221052939be44551c48e5/analysis/Candidate%20vs%20County%20Analysis%20.png)
 
 Even though we are analyzing different variables: candidate and county, our goal is the same, finding a 'winner' with the biggest amount of votes. The script can be used for any election by doing small adjustments to the code. 
 
